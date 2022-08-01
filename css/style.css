@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.our-program {
+    padding: 4rem 0;
+}
+
+.our-program .card-body {
+    padding: 1rem;
+    text-align: center;
+}
+
+.our-program .card {
+    margin: 5px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 18px;
+}
+
+.our-program .col-sm-3 {
+    margin: 0 auto !IMPORTANT;
+    justify-content: center !important;
+}
+
+.our-program h2 {
+    color: #56509f;
+    font-size: 2.4rem;
+    padding-bottom: 0.6rem;
+    text-decoration: underline;
+}
+
+.our-program h5.sub-heading {
+    color: #33305F;
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+}
+
+.our-program .row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.our-program .card-body a {
+    background: #56509fa1;
+    border: none;
+}
+
+.news-details {
+    padding: 4rem 0;
+}
+
+.news-details .card-body {
+    padding: 1rem;
+    text-align: center;
+}
+
+.news-details .card {
+    margin: 5px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 18px;
+}
+
+.news-details .col-sm-3 {
+    margin: 0 auto !IMPORTANT;
+    justify-content: center !important;
+}
+
+.news-details h2 {
+    color: #56509f;
+    font-size: 2.4rem;
+    padding-bottom: 0.6rem;
+    text-decoration: underline;
+}
+
+.news-details h5.sub-heading {
+    color: #33305F;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
+.news-details .row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news-details .card-body a {
+    background: #56509fa1;
+    border: none;
+}
+
+
+/* .teacher-pic img {
+    width: 50%;
+} */
+
+.teacher-pic p {
+    margin: 0;
+}
+
+.teacher-messages .nav-link.active {
+    background-color: #dc3545 !important;
+}
+
+section.map {
+    padding: 10px 0px !important;
+}
+
+section.contact-details {
+    color: white;
+}
+
+section.contact-details p a {
+    color: white !important;
+}
+
+footer .icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .icons ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+footer .icons ul li a svg {
+    color: white;
+}
+
+footer .icons ul li a {
+    text-decoration: none;
+}
+
+
+/*  */
+
+.gallery .lsb-preview {
+    float: left;
+    width: 25%;
+    padding: 2px;
+}
+
+section.our-progrms {
+    text-align: center;
+}
+
+section.our-progrms h2 {
+    font-size: 50px;
+}
+
+section.our-progrms h2,
+span.pb-header-content {
+    font-size: 36px !important;
+    margin-bottom: 20px !important;
+}
+
+.show-reel {
+    text-align: center;
+    margin-bottom: 2px;
+    word-spacing: -1px;
+}
+
+.show-reel .lsb-preview {
+    display: inline-block;
+    float: none;
+    width: 150px;
+}
+
+.program-wrap {
+    margin-top: 60px;
+}
+
+.show-reel .lsb-preview {
+    display: inline-block;
+    float: none;
+    width: 150px;
+}
+
+.single-image .lsb-preview.single {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.gallery .lsb-preview {
+    float: left;
+    width: 25%;
+    padding: 2px;
+}
+
+.lsb-preview {
+    display: block;
+    overflow: hidden;
+}
+
+.lsb-preview img {
+    transition: all 0.2s ease-in-out;
+}
+
+.lsb-preview:hover img {
+    opacity: .9;
+    box-shadow: 0 1px 10px #000;
+    transform: scale(1.3);
+}
+
+.lsb-preview:active img {
+    opacity: .7;
+    transform: scale(1.2);
+}
+
+.lsb-preview img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.youtube_vid {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+section.contact-details {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.teacher-pic p:nth-child(1) {
+    font-size: x-large;
+}
+
+header ul.navbar-nav li {
+    padding: 0 0.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+header .nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #36e4d8;
+    transition: 0.4s;
+    color: #6709fa;
+}
+
+header .nav-item:hover::after {
+    width: 100%
+}
+
+header .navbar-dark .navbar-nav .active>.nav-link,
+header .navbar-dark .navbar-nav .nav-link.active,
+header .navbar-dark .navbar-nav .nav-link.show,
+header .navbar-dark .navbar-nav .show>.nav-link,
+header .navbar-dark .navbar-nav .nav-link:focus,
+header .navbar-dark .navbar-nav .nav-link:hover {
+    color: #36e4d8;
+}
+
+.nav-link {
+    padding: 25px 5px;
+    transition: 0.2s
+}
+
+div#v-pills-home p {
+    margin-bottom: 4px;
+}
+
+section.our-progrms {
+    text-align: center;
+}
+
+section.our-progrms h2 {
+    font-size: 50px;
+}
+
+.program-wrap {
+    margin-top: 60px;
+}
+
+.home-icon {
+    background: red;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+}
+
+.home-icon img {
+    vertical-align: bottom;
+    margin: 20px;
+}
+
+.new-div a {
+    color: #56509f;
+}
+
+.new-div p {
+    margin: 30px 0px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.new-div {
+    text-align: left;
+}
+
+.new-div {
+    border: 1px solid #ddd;
+    padding: 30px;
+    min-height: 200px;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+h6.parent-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    color: #56509f !important;
+    font-size: 22px;
+    line-height: 42px;
+}
+
+.contact-form {
+    text-align: left;
+    background: #eeeeee;
+    padding: 25px;
+    border: 1px solid #eee;
+}
+
+.contact-form .form-control {
+    background-color: #fff;
+    border: 2px solid #ced4da;
+    border-radius: 0px;
+    margin: 5px 0;
+}
+
+.contact-form .btn-primary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0px;
+    margin: 20px auto 0px;
+    display: block;
+}
+
+h1.contact-us-heading {
+    padding: 2rem 0;
+    color: #56509f;
+}
+
+.our-progrms h3.parent-title {
+    color: #56509f;
+}
+
+.teacher-messages .nav-link,
+.teacher-messages .nav-link:hover {
+    color: #0a9e94;
+}
+
+section.gallery h1 {
+    padding: 1rem 0;
+    color: #56509f;
+    font-size: 4rem;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+.teacher-messages div#nav-tab {
+    --bs-nav-tabs-border-color: #dc3545;
+}
+
+.teacher-messages .nav-link.active {
+    color: white !important;
+}
+
+.teacher-pic p:nth-child(2) {
+    color: #87477d;
+}
+
+section.fees-structure img {
+    width: -webkit-fill-available;
+}
+
+.fees-heading h3 {
+    padding: 2rem 0;
+    color: #56509f;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+section.about-us-content img {
+    max-width: 100%;
+}
+
+.about-us-content .text-content {
+    justify-content: center;
+    margin: auto;
+}
+
+section.about-us-content p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+section.about-us-content .vision-n-mission h4 {
+    font-size: 2rem;
+    padding: 1rem 0 0 0;
+}
+
+h2.main-heading {
+    color: #56509f;
+    font-size: 2.4rem;
+    padding-bottom: 0.6rem;
+    text-decoration: underline;
+}
+
+.vision-n-mission h2 {
+    color: #56509f;
+    font-size: 2rem;
+    padding: 1rem 0 0.6rem 0;
+    margin: 0;
+}
+
+.text-content p b {
+    color: #dc3545;
+}
+
+.plantation-photos img,
+.vaccination-photos img {
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.parents-pic img {
+    width: 50%;
+}
+
+section.parents-review h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 0px 2rem 0;
+    color: #56509f;
+    text-decoration: underline;
+}
+
+.parents-review {
+    padding: 3rem 0;
+}
+
+.parents-review .text.area p {
+    font-size: 1.5rem;
+}

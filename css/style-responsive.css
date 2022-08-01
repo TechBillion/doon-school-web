@@ -1,0 +1,81 @@
+@media screen and (max-width: 425px) {
+    .gallery .lsb-preview {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .gallery .lsb-preview {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+    h3.parent-title {
+        text-align: center !important;
+    }
+    .new-div,
+    .new-div p {
+        text-align: center !important;
+    }
+    section.our-progrms h2 {
+        font-size: 36px !important;
+        margin-bottom: 20px !important;
+    }
+    .home-icon {
+        margin: 0 auto 20px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:377px) {
+    .teacher-messages .nav-link {
+        font-size: 0.85rem;
+        padding: 0.6rem;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    header a.nav-link {
+        font-size: 0.63rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header ul.navbar-nav li {
+        padding: 0 0.01rem;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    header a.nav-link {
+        font-size: 0.8rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .our-program h5.card-title {
+        font-size: 1.1rem;
+    }
+    .our-program p.card-text {
+        font-size: 0.85rem;
+    }
+    .our-program .card-body a {
+        font-size: 0.66rem;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:331px) {
+    .fees-heading h3 {
+        font-size: 2.6rem;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:575px) {
+    section.download-button-fees-structure img {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .fees-structure .fees-img {
+        padding-bottom: 1.1rem;
+    }
+}
