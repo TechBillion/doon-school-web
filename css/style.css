@@ -72,7 +72,8 @@ body {
     justify-content: center !important;
 }
 
-.news-details h2 {
+.news-details h2,
+.events-details h2 {
     color: #56509f;
     font-size: 2.4rem;
     padding-bottom: 0.6rem;
@@ -464,4 +465,37 @@ section.parents-review h2 {
 
 .parents-review .text.area p {
     font-size: 1.5rem;
+}
+
+.events-details .background-blur {
+    backdrop-filter: brightness(0.3);
+}
+
+.events-details .plantation-photos {
+    background-image: url(/images/aq2.webp);
+}
+
+.events-details h5.sub-heading {
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.plantation-photos .row .imgs {
+    padding-bottom: 1.5rem;
+}
+
+.vaccination-photos {
+    background-image: url(/images/aq5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vaccination-photos .imgs img {
+    height: 80%;
+    border: 2px solid white;
+    justify-content: center;
+    margin: auto;
 }
